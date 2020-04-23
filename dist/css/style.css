@@ -7,8 +7,7 @@
 body {
     font-family: Georgia;
     background:#ffffe4;
-    color:#fff;
-    padding-top:17em;
+    padding-top:18em;
 }
 
 /*HEADER*/
@@ -26,7 +25,8 @@ header {
     display:flex;
     justify-content: center;
     align-items:center;
-    padding:0.2em;
+    padding:0.5em;
+    color:#fff;
 }
 
 .phone-face {
@@ -88,10 +88,14 @@ p {
 }
 
 .container {
-    color:black;
     font-size:1.5rem;
     text-align:center;
     padding:0.75rem;
+    border-top: 12em solid transparent;
+    margin-top: -12em;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip:padding-box;
 }
 
 .heading {
@@ -116,8 +120,12 @@ hr {
         display:none;
     }
 
-    .header {
-        padding:0.5em 0;
+    .container {
+        border-top: 8.7em solid transparent;
+        margin-top: -8.7em;
+        -webkit-background-clip: padding-box;
+        -moz-background-clip: padding;
+        background-clip:padding-box;
     }
 }
 
@@ -130,21 +138,15 @@ hr {
         font-size:1em;
     }
 
-    .header {
-        padding:0.5em 0;
-    }
-
     nav {
         font-size:1.2em;
     }
+
+    .container {
+        border-top: 5em solid transparent;
+        margin-top: -5em;
+        -webkit-background-clip: padding-box;
+        -moz-background-clip: padding;
+        background-clip:padding-box;
+    }
 }
-
-
-
-
-
-
-
-
-
-
