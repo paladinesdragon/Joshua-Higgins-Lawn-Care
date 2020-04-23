@@ -109,21 +109,33 @@ hr {
 
 @media screen and (max-width:1200px) {    
     body {
-        padding-top:12em;
+        padding-top:13em;
     }
     
     .header-img {
         display:none;
     }
+
+    .header {
+        padding:0.5em 0;
+    }
 }
 
 @media screen and (max-width:900px) {
     body {
-        padding-top:4.5em;
+        padding-top:5em;
     }
     
-    .header, nav, .container, footer {
+    .header, .container, footer {
         font-size:1em;
+    }
+
+    .header {
+        padding:0.5em 0;
+    }
+
+    nav {
+        font-size:1.2em;
     }
 }
 
