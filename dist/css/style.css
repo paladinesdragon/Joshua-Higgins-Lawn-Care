@@ -140,7 +140,7 @@ nav a:hover {
 }
 
 #testimonials .heading {
-    color:var(--grey);
+    color:var(--white);
 }
 
 #testimonials h6 {
@@ -148,7 +148,7 @@ nav a:hover {
 }
 
 #testimonials span {
-    color:var(--white);
+    color:var(--yellow);
 }
 
 /*PORTFOLIO*/
