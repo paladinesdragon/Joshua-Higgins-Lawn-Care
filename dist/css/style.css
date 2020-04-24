@@ -140,16 +140,20 @@ nav a:hover {
 }
 
 #testimonials .heading {
-    color:#fff;
+    color:var(--grey);
 }
 
 #testimonials h6 {
-    color:var(--off-white);
+    color:var(--yellow);
 }
 
 #testimonials span {
-    color:yellow;
+    color:var(--white);
 }
+
+/*PORTFOLIO*/
+
+
 
 /*FOOTER*/
 
