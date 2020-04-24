@@ -113,11 +113,13 @@ nav a:hover {
     background-color:var(--grey);
 }
 
-#services div {
+.grid-3 {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap:1rem;
 }
+
+
 
 .card {
     position:relative;
@@ -131,12 +133,30 @@ nav a:hover {
     padding-bottom:.2rem;
 }
 
+/*TESTIMONIALS*/
+
+#testimonials {
+    background-color:#353a3d;
+}
+
+#testimonials .heading {
+    color:#fff;
+}
+
+#testimonials h6 {
+    color:var(--off-white);
+}
+
+#testimonials span {
+    color:yellow;
+}
+
 /*FOOTER*/
 
 footer {
     margin:auto;
-    background:var(--green);
-    padding: 1rem 0;
+    background:#1a1c1d;
+    padding:.5rem 0;
     text-align:center;
     width:100%;
     color:var(--white);
