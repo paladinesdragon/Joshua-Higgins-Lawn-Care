@@ -46,6 +46,7 @@ p {
 
 .container {
     text-align:center;
+    
     padding:.5rem 1rem 1rem 1rem;
     border-top: 6.6rem solid transparent;
     margin-top: -6.6rem;
@@ -109,7 +110,7 @@ nav a:hover {
     background-color:var(--grey);
 }
 
-.grid-3 {
+.grid {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap:1rem;
@@ -131,7 +132,8 @@ nav a:hover {
 
 .work-slideshow {
     border:5px solid black;
-    max-width:48%;
+    width:29rem;
+    padding:0 .5rem;
     margin:auto;
     position:relative;
 }
@@ -201,5 +203,31 @@ footer {
 /*RESPONSIVENESS*/
 
 @media screen and (max-width:1100px) {
-    
+    html {
+        font-size:1.8em;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .header img {
+        display:none;
+    }
+
+    body {
+        padding-top:4.7rem;
+    }
+
+    .container {
+        border-top: 4.8rem solid transparent;
+        margin-top: -4.8rem;
+    }
+
+    .work-slideshow {
+        width:100%;
+    }
+
+    .grid {
+        grid-template-columns:1fr;
+        grid-gap:.5rem;
+    }
 }
