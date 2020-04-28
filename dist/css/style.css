@@ -229,7 +229,7 @@ footer {
         margin-top: -4.8rem;
     }
 
-    .dropdown span {
+    /*.dropdown span {
         display:block;
         background:var(--brown);
         font-size:.7rem;
@@ -246,7 +246,7 @@ footer {
 
     .dropdown:hover nav {
         display:flex;
-    }
+    }*/
 
     .work-slideshow {
         width:100%;
@@ -262,14 +262,8 @@ footer {
     .header {
         font-size:.8rem;
     }
-
-    body {
-        padding-top:5.2rem;
-    }
-
-    .container {
-        border-top: 5.2rem solid transparent;
-        margin-top: -5.2rem;
+    
+    nav {
+        display:none;
     }
 }
-
