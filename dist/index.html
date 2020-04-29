@@ -14,23 +14,21 @@
             <div class="header-text">
                 <h2>Joshua Higgins Lawn Care</h2>
                 <div class="phone-face">
-                    <h4><a href="tel:5079238423">507-923-8423</a></h4>
+                    <!--<h4><a href="tel:5079238423">507-923-8423</a></h4>-->
+                    <a href="tel:5079238423"><i class="fas fa-mobile-alt fa-2x"></i></a>
+                    <a href="mailto:jhlawncare2018@yahoo.com"><i class="fas fa-envelope-square fa-2x"></i></a>
                     <a href="https://www.facebook.com/Joshua-Higgins-Lawn-Care-450776965695692/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
                 </div>
             </div>
             <img src="img/icon_edited.png" alt="cartoon lawn mower" />
         </section>
-        
-        <div class="dropdown">
-            <span>Menu</span>
-            <nav>
-                <a href="#about" class="about">About</a>
-                <a href="#services" class="services">Services</a>
-                <a href="#portfolio" class="portfolio">Portfolio</a>
-                <a href="#testimonials" class="testimonials">Testimonials</a>
-                <a href="#contact" class="contact">Contact</a>
-            </nav>
-        </div>
+        <nav>
+            <a href="#about" class="about">About</a>
+            <a href="#services" class="services">Services</a>
+            <!--<a href="#estimate" class="estimate">Estimate</a>-->
+            <a href="#portfolio" class="portfolio">Portfolio</a>
+            <a href="#testimonials" class="testimonials">Testimonials</a>
+        </nav>
     </header>
     
     <section id="about" class="container">
@@ -40,7 +38,7 @@
     
     <section id="services" class="container">
         <h3 class="heading">Services</h3>
-        <div class="grid">
+        <div class="grid-3">
             <section class="card">
                 <h5>Spring & Fall Cleanup</h5>
                 <p>Service Description</p>
@@ -55,6 +53,22 @@
             </section>
         </div>
     </section>
+
+    <!--<section id="estimate" class="container">
+        <h3 class="heading">Get an Estimate</h3>
+        <form name="estimate-form" method="POST" data-netlify="true">
+            <input type="text" name="fname" placeholder="First Name" />
+            <input type="text" name="lname" placeholder="Last Name" />
+            <input type="email" name="email" placeholder="Email" />
+            <input type="text" name="number" pattern="" placeholder="Phone Number" />
+            <input type="text" name="address" placeholder="Service Address" />
+            <input type="text" name="zip" placeholder="Service Postal Code" />
+            <button type="submit">Submit</button>
+        </form>
+        <section class="service-area">
+
+        </section>
+    </section>-->
     
     <section id="portfolio" class="container">
         <h3 class="heading">Portfolio</h3>
@@ -88,7 +102,7 @@
 
     <section id="testimonials" class="container">
         <h3 class="heading">What people are saying...</h3>
-        <div class="grid">
+        <div class="grid-3">
             <h6><span>"</span>Testimonial<span>"</span></h6>
             <h6><span>"</span>Testimonial<span>"</span></h6>
             <h6><span>"</span>Testimonial<span>"</span></h6>
