@@ -270,16 +270,8 @@ footer {
 }
 
 @media only screen and (max-width:620px) {
-    .header {
-        font-size:.8rem;
-    }
-    
-    nav {
-        display:none;
-    }
-
-    .work-slideshow {
-        padding:.1rem .7rem;
+    html {
+        font-size:1.4rem;
     }
 
     .prev,
