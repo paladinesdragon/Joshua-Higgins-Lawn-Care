@@ -92,8 +92,6 @@ header {
     width:8rem;
 }
 
-
-
 /*NAVIGATION*/
 
 nav {
@@ -138,8 +136,8 @@ nav a:hover {
 /*PORTFOLIO*/
 
 .work-slideshow {
-    border:5px solid black;
-    width:29rem;
+    border:5px solid var(--green);
+    width:28rem;
     padding:0 .5rem;
     margin:auto;
     position:relative;
@@ -158,7 +156,12 @@ nav a:hover {
     cursor:pointer;
     position:absolute;
     top:45%;
-    background:black;
+    background:var(--brown);
+}
+
+.prev:hover,
+.next:hover {
+    color:var(--yellow);
 }
 
 .prev {
