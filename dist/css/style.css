@@ -236,13 +236,11 @@ footer {
 
 /*RESPONSIVENESS*/
 
-@media screen and (max-width:1100px) {
+@media only screen and (max-width:1100px) {
     html {
         font-size:1.8em;
     }
-}
 
-@media screen and (max-width:900px) {
     .header img {
         display:none;
     }
@@ -264,20 +262,20 @@ footer {
         grid-template-columns:1fr;
         grid-gap:.5rem;
     }
+
+    a[title]:hover:after {
+        content:'';
+        margin:0;
+    }
 }
 
-@media screen and (max-width:620px) {
+@media only screen and (max-width:620px) {
     .header {
         font-size:.8rem;
     }
     
     nav {
         display:none;
-    }
-
-    a[title]:hover:after {
-        content:'';
-        margin:0;
     }
 
     .work-slideshow {
