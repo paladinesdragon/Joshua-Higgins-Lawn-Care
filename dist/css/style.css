@@ -42,7 +42,7 @@ a[title]:hover:after {
     margin-left:.2rem;
 }
 
-img, input {
+img {
     width:100%;
 }
 
@@ -83,6 +83,7 @@ header {
     text-align:center;
     padding:.2rem;
 }
+
 .phone-face {
     display:flex;
     justify-content:center;
@@ -115,6 +116,14 @@ nav a:hover {
     background-color:var(--grey);
 }
 
+#services .heading {
+    padding-bottom:0;
+}
+
+#services > h5 {
+    margin-bottom:.4rem;
+}
+
 .grid-3 {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
@@ -122,39 +131,14 @@ nav a:hover {
 }
 
 .card {
-    position:relative;
     background:var(--off-white);
     box-shadow:0 .1rem .1rem var(--dk-grey);
     border-radius:.2rem;
-    padding:.3rem .2rem;
+    padding:.4rem .2rem;
 }
 
-.card h5 {
-    padding-bottom:.2rem;
-}
-
-/*ESTIMATE*/
-
-#estimate {
-    background-color:var(--grey);
-}
-
-input {
-    border:2px solid var(--green);
-    border-radius:5px;
-    font-size:.7rem;
-    margin-bottom:.5rem;
-    padding:.2rem;
-}
-
-button {
-    background:var(--brown);
-    cursor:pointer;
-    color:white;
-    border:4px solid var(--green);
-    border-radius:10px;
-    font-size:1rem;
-    padding:.2rem;
+.card > h5 {
+    padding-bottom:.1rem;
 }
 
 /*PORTFOLIO*/
@@ -215,7 +199,7 @@ button {
 }
 
 #testimonials span {
-    color:var(--yellow);
+    color:white;
 }
 
 
@@ -274,7 +258,20 @@ footer {
         font-size:1.4rem;
     }
 
+}
+
+@media only screen and (max-width:485px) {
+    body {
+        padding-top:6.6rem;
+    }
+
+    .container {
+        border-top:6.8rem solid transparent;
+        margin-top:-6.8rem;
+    }
+    
     .prev,
     .next {
-    top:40%;
+        font-size:.7em;
+    }
 }
