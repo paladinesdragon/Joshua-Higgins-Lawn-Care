@@ -141,6 +141,10 @@ nav a:hover {
     padding-bottom:.1rem;
 }
 
+.card p {
+    margin:.25rem;
+}
+
 /*PORTFOLIO*/
 
 .work-slideshow {
